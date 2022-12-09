@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="nav">
+        <a href="#home"><h2>Home</h2> </a>
+        <a href="#section1"><h2>Backtracking</h2></a>
+        <a href="#section2"><h2>Greedy</h2></a>
+        <a href="#section3"><h2>Triere</h2></a>
+      </div>
+      <div class="nav-footer">
+        <img src="box.gif" alt="footer" />
+      </div>
+    </div>
+    <div id="page-sections">
+      <div class="home-section" id="home">
+        <h1>TIPURI DE ALGORITMI</h1>
+       <div class="image-container1">
+ <img src="algo.jpg" alt="1" />
+</div>
+      </div>
+      <div class="page-section" id="section1">
+        <h1>METODA BACKTRACKING</h1>
+        <p>Backtracking este numele unui algoritm general de descoperire a tuturor soluțiilor unei probleme de calcul, algoritm ce se bazează pe construirea incrementală de soluții-candidat, abandonând fiecare candidat parțial imediat ce devine clar că acesta nu are șanse să devină o soluție validă.
+
+          Exemplul de bază folosit în numeroase manuale de liceu și de nivel universitar este problema reginelor, care cere să se găsească toate modurile în care pot fi așezate pe o tablă de șah opt regine astfel încât să nu se atace. În abordarea backtracking, candidatele parțiale sunt aranjamente de câte k regine pe primele k rânduri ale tablei, toate pe rânduri și coloane diferite. Orice soluție parțială ce conține două regine care se atacă poate fi abandonată, deoarece în mod clar restul de regine nu pot fi așezate într-o soluție validă.
+          
+          Tehnica backtracking se poate aplica doar pentru probleme ce admit conceptul de „candidat parțial de soluție” și oferă un test relativ rapid asupra posibilității ca un astfel de candidat să fie completat către o soluție validă. Când se poate aplica, însă, backtrackingul este adesea mult mai rapid decât căutarea prin metoda forței brute prin toți candidații, întrucât este capabilă să elimine dintr-un singur test un mare număr de candidați.
+          
+          Backtrackingul este util la rezolvarea unor probleme de satisfacere a constrângerilor, cum ar fi cuvintele încrucișate, jocuri de sudoku și alte probleme similare. Ea stă la baza unei serii de limbaje de programare logică, cum ar fi Icon, Planner și Prolog.</p>
+        <p>
+          Se considera nr naturale din Mulțimea {1,2,3 … n}. Elaborați un program care determina câte nr prime sunt mai mari decât nr natural m
+        </p>
+        <div class="image-container">
+          <img src="olga1.jpg" alt="1" />
+<div>
+<p>Orice nr pozitiv poate fi reprezentat ca o suma unica din numere fracționare. Reprezentarea data se numeste fracționarea egipteană</p>
+           
+<div class="image-container">
+<img src="olga2.jpg" alt="1" /></div>
+<p>Este dar un șir de numere de la 2-9. Trebuie sa intorci toate combinațiile posibile care ar folosi literele reprezentate:</p>
+          <img src="123.jpg" alt="1" style="width:130px;height:100px;" />
+ <div class="image-container">
+<img src="olga3.jpg" alt="1" />
+        </div>
+      </div>
+      <div class="page-section" id="section2">
+        <h1>METODA GREEDY</h1>
+           Algoritmii greedy formează o paradigmă algoritmică⁠ care urmează euristica⁠ rezolvării de probleme⁠ care face la nivel local alegerea optimă pentru fiecare etapă în speranța de a găsi un optim global. În multe probleme, o strategie greedy produce, în general, o soluție optimă, dar cu toate acestea o euristică greedy poate produce la nivel local soluții optime care aproximează o soluție optimă globală într-un timp rezonabil.
+
+          De exemplu, o strategie greedy pentru problema comis-voiajorului (care este de mare complexitate computațională) este următoarea euristică: „la fiecare etapă, se vizitează un oraș nevizitat aflat cel mai apropiat de actualul oraș”. Această euristică nu găsește neapărat o soluție mai bună, dar se termină într-un număr rezonabil de pași; găsirea unei soluții optime necesită de obicei nejustificat de mulți pași. În optimizarea matematică, algoritmii greedy rezolvă probleme combinatorice cu proprietăți de matroide⁠.
+          Algoritmii greedy dau greș în găsirea soluției optime globale mai ales pentru că nu operează exhaustiv pe toate datele. Ei își pot lua angajamente pentru anumite alegeri prea devreme, ceea ce îi împiedică să găsească cele mai bune soluții globale mai târziu. De exemplu, toți algoritmii greedy de colorare pentru problema colorării grafurilor și pentru toate celelalte probleme NP-complete nu găsesc în mod consistent soluții optime. Cu toate acestea, ele sunt utile, deoarece acestea fac rapid alegeri și de multe ori dau aproximări bune ale soluției optime.
+
+           Dacă se poate demonstra că un algoritm greedy dă randament global optim pentru o anumită clasă de probleme, de obicei, acesta devine metoda aleasă, pentru că este mai rapid decât alte metode de optimizare ca programarea dinamică⁠. Exemple de astfel de algoritmi greedy sunt algoritmul lui Kruskal și algoritmul lui Prim pentru găsirea arborilor minimi de acoperire, și algoritmul pentru găsirea arborilor Huffman⁠ optimi.
+          <img src="olga6.jpg" alt="1" style="width:900px;height:1200px;" />
+        
+      </div>
+      <div class="page-section" id="section3">
+        <h1>METODA TRIERII</h1>
+        <p>Pe parcursul dezvoltării informaticii s-a stabilit că multe probleme de o reală importanţă practică pot fi rezolvate cu ajutorul unor metode standart, denumite tehnici de programare: recursia, trierea, metoda reluării, metodele euristice. 
+          Una din cele mai răspândite tehnici de programare este recursia. Recursivitatea este procesul iterativ prin care valoarea unei variabile se determină pe baza uneia sau a mai multora dintre propriile ei valori anterioare. Structurile recursive reprezintă o alternativă de realizare a proceselor repetitive fără a utiliza cicluri. Admitem că recursia se defineşte ca o situaţie în care un subprogram se autoapeleaza fie direct, fie prin intermediul altui subprogram. Tehnicile în studiu se numesc respectiv recursia directă şi recursia indirectă. </p>
+        <div class="image-container">
+          <img src="olga7.jpg" alt="1" style="width:900px;height:1200px;" />
+         
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
